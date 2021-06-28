@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header{
+    height: 65px;
+
+}
+
+  
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    list-style: none;
+    display: flex;
+  
+}
+.header__list a{
+    text-decoration: none;
+
+}
+.header__link{
+    padding-left: 14px;
+    padding-right: 14px;
+    
+}
+.header__link:hover{
+transition: 0.5s;
+    color:#EF4423;
+}
+.header__list a{
+color: black;
+}
+.container header__content{
+    width: 131px;
+}
+.header .logo{
+    color:black;
+    width: 150px;
+    text-align: center;
+}
+ .slide{
+     
+     text-align: center;
+ }
+ .main{
+    
+     max-width: 1110px;
+     width: 100%;
+     display: flex;
+
+ }
+ .post1{
+     width: 350px;
+     height: 380px;
+     background: #B71C1C;
+ }
+ .main__title{
+     width: 320px;
+     height:44px ;
+     font-size: 19px;
+     line-height: 22px;
+     margin-left: 7.5px;
+     margin-right: 7,5px;
+   padding:8px;
+   color:white;
+ }
+ .main__text{
+     color: white;
+     width: 320px;
+     height: 130px;
+     font-size: 16px;
+line-height: 19px;
+margin-left: 15px;
+margin-top: 8px;
+
+ }
+ .post2{
+     width: 350px;
+     height: 380px;
+     background: #6A1B9A;
+     display: flex;
+flex-direction: column;
+justify-content: space-between;
+ }
+ .main__title2{
+     width: 320px;
+     height: 44px;
+     color: white;
+     font-size: 19px;
+line-height: 22px;
+padding: 15px;
+
+ }
+ .main__text2{
+     width: 320;
+     height: 130px;
+     color: white;
+     font-size: 16px;
+line-height: 19px;
+padding:15px;
+margin-top: 7px;
+margin-bottom: 9px;
+ }
+.post3{
+    width: 350px;
+    height: 380px;
+    background: #303F9F;
+ 
+
+}
+.main__title3{
+    color: white;
+    width: 320px;
+    height: 44px;
+    font-size: 19px;
+line-height: 22px;
+padding: 8px  15px  7px 15px;
+
+}
+.main__text3{
+    color: white;
+    width: 320px;
+    height: 130px;
+    font-size: 16px;
+line-height: 19px;
+    padding: 7px;
+   margin: 7px 15px 16px 14px;
+
+}
+.post4{
+    background: #00695C;
+    width: 350px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main__title4{
+    width: 320px;
+    height: 44px;
+    font-size: 19px;
+    line-height: 22px;
+    color: white;
+    padding:  14px 15px 9px 15px;
+}
+.main__text4{
+    width: 320px;
+    height: 130px;
+    color: white;
+    font-size: 16px;
+line-height: 19px;
+padding:  0px 15px ;
+}
+.main2__title{
+    
+    text-align: center;
+    width: 180;
+    height: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 22px;
+line-height: 26px;
+}
+.main2{
+width: 100vh;
+    width: 1400px;
+    height: 531px;
+    background: #EDEDED;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+
+
+    
+
+
+
+}
+.main1__title{
+    color: #3A3838;
+padding-right: 30px;
+padding-left: 30px;
+padding-top: 20px;
+    width: 540px;
+    height: 52px;
+    font-size: 22px;
+line-height: 26px
+
+} 
+.main3{
+    padding-right: 170px;
+   
+}
+.main5__text{
+    width: 540px;
+    height: 398px;
+padding-top: 71px;
+padding-left: 30px;
+color: #686868;
+font-size: 18px;
+line-height: 21px
+}
+
+
+.img2{
+    padding-left: 130px;
+}
+.footer{
+    background: #3A3838;
+    width: 1400px;
+    height: 128px;
+    margin-top: 50px;
+    display: flex ;
+    align-items: center;
+}
+.footer__logo>h2{
+    width: 131px;
+    height: 21px;
+    font-size: 16px;
+line-height: 15px;
+display: flex;
+justify-content: center;
+color: white;
+}
+.footer__content{
+    display: flex;
+   justify-content: space-between;
+}
+.footer__list{
+    list-style: none;
+   padding: 10px;
+   display: block;
+   display: flex;
+   align-items: center;
+   
+}
+.footer__link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+line-height: 21px;
+ 
+}
+.footer__link:hover{
+    color: #EF4423;
+    transition: 0.5s;
+}
